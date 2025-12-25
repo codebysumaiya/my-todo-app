@@ -1,5 +1,5 @@
 Django>=5.0,<6.0
-django-stubs[compatible-mypy]
 ruff
 pyright
 pre-commit
+django-stubs[compatible-mypy]
