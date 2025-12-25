@@ -1,0 +1,7 @@
+repos:
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.2.2  # Use a stable version
+    hooks:
+      - id: ruff
+        args: [--fix]  # Auto-fix issues
+      - id: ruff-format  # Format code

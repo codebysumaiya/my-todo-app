@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class ToDo(models.Model):
     title = models.CharField(max_length=200)
     completed = models.BooleanField(default=False)
@@ -7,4 +8,3 @@ class ToDo(models.Model):
 
     def __str(self):
         return self.title
-
